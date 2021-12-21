@@ -18,6 +18,7 @@ const Header = () => {
 					backSpeed={60}
 					loop
 				/>
+				// eslint-disable-next-line
 				<a href="#" className="btn-main-offer">Contact Me</a>
 			</div>
 		</div>
