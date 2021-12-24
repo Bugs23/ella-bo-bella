@@ -16,7 +16,7 @@ const Services = () => {
 								<FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
 							</div>
 							<h3>Web Development</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis id arcu quis cursus.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis id arcu quis cursus. Nulla semper dolor nec feugiat gravida. Aliquam erat volutpat. Cras fermentum venenatis purus sagittis lacinia. Vivamus sit amet nunc eget ante viverra tincidunt vitae at neque. Nullam et ex velit. Curabitur aliquam risus vitae facilisis malesuada.</p>
 						</div>
 					</div>
 					{/* - */}
@@ -26,7 +26,7 @@ const Services = () => {
 								<FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
 							</div>
 							<h3>Web Design</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis id arcu quis cursus.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis id arcu quis cursus. Nulla semper dolor nec feugiat gravida. Aliquam erat volutpat. Cras fermentum venenatis purus sagittis lacinia. Vivamus sit amet nunc eget ante viverra tincidunt vitae at neque. Nullam et ex velit. Curabitur aliquam risus vitae facilisis malesuada.</p>
 						</div>
 					</div>
 					{/* - */}
@@ -36,7 +36,7 @@ const Services = () => {
 								<FontAwesomeIcon className="icon" icon={faCoffee} size="2x" />
 							</div>
 							<h3>Graphic Design</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis id arcu quis cursus.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis id arcu quis cursus. Nulla semper dolor nec feugiat gravida. Aliquam erat volutpat. Cras fermentum venenatis purus sagittis lacinia. Vivamus sit amet nunc eget ante viverra tincidunt vitae at neque. Nullam et ex velit. Curabitur aliquam risus vitae facilisis malesuada.</p>
 						</div>
 					</div>
 				</div>
