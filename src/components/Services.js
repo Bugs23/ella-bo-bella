@@ -10,33 +10,37 @@ const Services = () => {
 			<h1 className="py-5">My Services</h1>
 			<div className="container">
 				<div className="row">
-					<div className="col-lg-4">
+					<div className="col-lg-6">
 						<div className="box">
 							<div className="circle">
 								<FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
 							</div>
-							<h3>Web Development</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis id arcu quis cursus. Nulla semper dolor nec feugiat gravida. Aliquam erat volutpat. Cras fermentum venenatis purus sagittis lacinia. Vivamus sit amet nunc eget ante viverra tincidunt vitae at neque. Nullam et ex velit. Curabitur aliquam risus vitae facilisis malesuada.</p>
+							<h3>Web Development & Design</h3>
+							<p>I'm always interested in working with and learning new tools and some of the things I have experience with include:</p>
+							<ul className="skill-items">
+							  	<li>HTML</li>
+							  	<li>CSS</li>
+							  	<li>JavaScript</li>
+							  	<li>React</li>
+							  	<li>Bootstrap</li>
+							</ul>  
 						</div>
 					</div>
 					{/* - */}
-					<div className="col-lg-4">
+					<div className="col-lg-6">
 						<div className="box">
 							<div className="circle">
 								<FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
 							</div>
-							<h3>Web Design</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis id arcu quis cursus. Nulla semper dolor nec feugiat gravida. Aliquam erat volutpat. Cras fermentum venenatis purus sagittis lacinia. Vivamus sit amet nunc eget ante viverra tincidunt vitae at neque. Nullam et ex velit. Curabitur aliquam risus vitae facilisis malesuada.</p>
-						</div>
-					</div>
-					{/* - */}
-					<div className="col-lg-4">
-						<div className="box">
-							<div className="circle">
-								<FontAwesomeIcon className="icon" icon={faCoffee} size="2x" />
-							</div>
 							<h3>Graphic Design</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis id arcu quis cursus. Nulla semper dolor nec feugiat gravida. Aliquam erat volutpat. Cras fermentum venenatis purus sagittis lacinia. Vivamus sit amet nunc eget ante viverra tincidunt vitae at neque. Nullam et ex velit. Curabitur aliquam risus vitae facilisis malesuada.</p>
+							<p>I love helping clients bring new design ideas to life. Some of the design tools I have experience with include:</p>
+							<ul className="skill-items">
+								<li>Photoshop</li>
+								<li>Illustrator</li>
+								<li>InDesign</li>
+								<li>Sketch</li>
+								<li>Invision</li>
+							</ul>  
 						</div>
 					</div>
 				</div>

@@ -1,11 +1,13 @@
 import React from "react";
 import Typed from "react-typed";
+import {Link} from "react-scroll";
 
 const Header = () => {
 	return (
 		<div id="home" className="header-wrapper">
 			<div className="main-info">
-				<h1>Web Development & Design</h1>
+				<h1>Raymond Urrutia</h1>
+				<h3>Web Development & Design</h3>
 
 			{/* - "strings" is the array with the text you want to see typed 
 				- typeSpeed is the speed you want the text typed out
@@ -18,8 +20,8 @@ const Header = () => {
 					backSpeed={60}
 					loop
 				/>
-				// eslint-disable-next-line
-				<a href="#" className="btn-main-offer">Contact Me</a>
+				<Link smooth={true} to="contact" offset={-110} className="btn-main-offer" href="#">Contact Me</Link>
+				
 			</div>
 		</div>
 	)
