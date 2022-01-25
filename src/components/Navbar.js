@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../logo.png";
+import logo from "../logo-1.png";
 import {Link} from "react-scroll";
 
 // REACT FONT AWESOME IMPORTS
@@ -10,7 +10,7 @@ const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
 			<div className="container">
-				<a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo" /></a>
+				<a className="navbar-brand" href="#"><img className="logo-1" src={logo} alt="logo" /></a>
 				<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				{/* React fontawesome hamburger icon */}
 				<FontAwesomeIcon icon={faBars} style={{ color: "#fff" }}/>
