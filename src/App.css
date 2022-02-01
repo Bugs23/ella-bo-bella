@@ -23,6 +23,14 @@ body {
   font-weight: 100 !important;
 }
 
+/*-------- SECTIONS --------*/
+.section-wrapper {
+  padding: 3rem 0;
+}
+.section-wrapper h1 {
+  color: var(--primary-blue);
+}
+
 
 /********************************* NAVBAR *********************************/
 
@@ -39,10 +47,6 @@ nav a.nav-link {
   font-size: 0.8rem;
   letter-spacing: 0.0375rem;
   cursor: pointer;
-}
-
-nav ul li {
-  text-transform: uppercase;
 }
 
 .navbar-nav > li > a {
@@ -105,7 +109,6 @@ nav ul li {
 
 .main-info h1 {
   color: var(--primary-blue);
-  text-transform: uppercase;
 }
 
 .main-info h3 {
@@ -132,7 +135,6 @@ nav ul li {
 /*-------- HEADER MAIN OFFER BUTTON --------*/
 .btn-main-offer {
   border: 1px solid var(--primary-blue);
-  text-transform: uppercase;
   text-decoration: none;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
@@ -178,9 +180,10 @@ nav ul li {
   border: 1px solid var(--primary-blue);
 }
 
-.about-heading {
-  color: var(--primary-blue);
-  text-transform: uppercase;
+@media(max-width: 576px) {
+  .about-me {
+    text-align: center;
+  }
 }
 
 @media(max-width: 468px) {
@@ -195,12 +198,7 @@ nav ul li {
 
 .services {
   text-align: center;
-  padding-bottom: 2rem;
   background: var(--primary-light-gray);
-}
-
-.services h1 {
-  color: var(--primary-dark);
 }
 
 .services .circle {
@@ -266,11 +264,6 @@ nav ul li {
   overflow: hidden;
 }
 
-.experience h1 {
-  text-transform: uppercase;
-  color: var(--primary-blue);
-}
-
 .experience-wrapper::before {
   position: absolute;
   content: "";
@@ -323,9 +316,6 @@ nav ul li {
 
 /*-------- MEDIA QUERIES --------*/
 @media(max-width: 768px) {
-  .experience {
-    padding: 0.7rem;
-  }
   .experience .container {
     padding-left: 0;
   }
@@ -355,10 +345,6 @@ nav ul li {
 .portfolio-wrapper {
   background: var(--primary-light-gray);
   padding: 3rem 0;
-}
-
-.portfolio-wrapper h1 {
-  color: var(--primary-blue);
 }
 
 .portfolio-image {
@@ -465,9 +451,7 @@ nav ul li {
 }
 
 .testimonials h1 {
-  color: var(--primary-blue);
   padding: 3rem 0;
-  text-transform: uppercase;
 }
 
 .testimonials-content {
@@ -523,13 +507,6 @@ nav ul li {
 /********************************* CONTACTS *********************************/
 .contacts {
   background: var(--primary-dark);
-  padding: 3rem 0;
-}
-
-.contacts h1 {
-  color: var(--primary-blue);
-  padding: 1.3rem 0;
-  text-transform: uppercase;
 }
 
 .contacts p {
@@ -552,10 +529,6 @@ nav ul li {
   top: 0;
   margin-bottom: 1rem;
   padding-left: 0 !important;
-}
-
-.contacts .container {
-  padding: 4rem 0;
 }
 
 .contacts input:focus, .contacts textarea:focus {
@@ -611,10 +584,6 @@ textarea.form-control {
 @media(max-width: 768px) {
   .contacts {
     overflow-x: hidden;
-  }
-
-  .contacts {
-    padding: 0 1rem;
   }
 }
 

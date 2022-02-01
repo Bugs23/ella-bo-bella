@@ -16,7 +16,7 @@ const Navbar = () => {
 				<FontAwesomeIcon icon={faBars} style={{ color: "#fff" }}/>
 				</button>
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul className="navbar-nav ms-auto">
+					<ul className="navbar-nav ms-auto text-uppercase">
 						<li className="nav-item active">
 							<Link smooth={true} to="home" offset={-110} className="nav-link" href="#">Home</Link>
 						</li>
@@ -27,13 +27,13 @@ const Navbar = () => {
 							<Link smooth={true} to="services" offset={-113} className="nav-link" href="#">Services</Link>
 						</li>
 						<li className="nav-item">
-							<Link smooth={true} to="experience" offset={-157} className="nav-link" href="#">Experience</Link>
+							<Link smooth={true} to="experience" offset={-113} className="nav-link" href="#">Experience</Link>
 						</li>
 						<li className="nav-item active">
 							<Link smooth={true} to="portfolio" offset={-110} className="nav-link" href="#">Portfolio</Link>
 						</li>
 						<li className="nav-item">
-							<Link smooth={true} to="contact" offset={-110} className="nav-link" href="#">Contact</Link>
+							<Link smooth={true} to="contact" offset={-50} className="nav-link" href="#">Contact</Link>
 						</li>
 					</ul>
 				</div>

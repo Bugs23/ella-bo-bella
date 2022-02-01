@@ -3,11 +3,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faCheckSquare, faCoffee, faDesktop, faFileCode } from '@fortawesome/free-solid-svg-icons';
+import WOW from "wow.js";
 
 const Services = () => {
+
+  	const componentDidMount = () => {
+    	const wow = WOW();
+    	wow.init();
+  	}
+
 	return (
-		<div id="services" className="services">
-			<h1 className="py-5">My Services</h1>
+		<div id="services" className="services section-wrapper">
+			<h1 className="pb-5 text-uppercase wow slideInRight">My Services</h1>
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-6">

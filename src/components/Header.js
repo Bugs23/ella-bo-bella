@@ -1,11 +1,18 @@
 import React from "react";
 import Typed from "react-typed";
 import {Link} from "react-scroll";
+import WOW from 'wow.js';
 
 const Header = () => {
+
+  const componentDidMount = () => {
+    	const wow = WOW();
+    	wow.init();
+  	}
+
 	return (
 		<div id="home" className="header-wrapper">
-			<div className="main-info">
+			<div className="main-info text-uppercase wow bounceIn">
 				<h1>Raymond Urrutia</h1>
 				<h3>Web Development & Design</h3>
 
@@ -20,7 +27,7 @@ const Header = () => {
 					backSpeed={60}
 					loop
 				/>
-				<Link smooth={true} to="contact" offset={-110} className="btn-main-offer" href="#">Contact Me</Link>
+				<Link smooth={true} to="contact" offset={-110} className="btn-main-offer text-uppercase" href="#">Contact Me</Link>
 				
 			</div>
 		</div>

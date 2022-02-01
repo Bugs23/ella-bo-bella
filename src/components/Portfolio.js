@@ -199,9 +199,9 @@ const Portfolio = () => {
   	/****** End Task Manager React and Redux Project Popup ******/
 
 	return (
-		<div id="portfolio" className="portfolio-wrapper">
+		<div id="portfolio" className="portfolio-wrapper section-wrapper">
 			<div className="container">
-				<h1 className="text-uppercase text-center py-5">Portfolio</h1>
+				<h1 className="text-uppercase text-center pb-5">Portfolio</h1>
 				<div className="image-box-wrapper row row-cols-auto justify-content-center">
 					<div className="portfolio-image-box" onClick={openPopupboxPortfolioPage}>
 						<img className="portfolio-image" src={PortfolioPage} alt="Portfolio page image " />
@@ -253,7 +253,6 @@ const Portfolio = () => {
 			<PopupboxContainer {...popupboxConfigBartiesvilleTireService} />
 			<PopupboxContainer {...popupboxConfigBuyVsLease} />
 			<PopupboxContainer {...popupboxConfigCommunityFirst} />
-
 		</div>
 	)
 }
