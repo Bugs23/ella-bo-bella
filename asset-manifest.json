@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/ella-bo-bella/static/css/main.2219fdcc.chunk.css",
+    "main.js": "/ella-bo-bella/static/js/main.2b5a4239.chunk.js",
+    "main.js.map": "/ella-bo-bella/static/js/main.2b5a4239.chunk.js.map",
+    "runtime-main.js": "/ella-bo-bella/static/js/runtime-main.dc6b2ce1.js",
+    "runtime-main.js.map": "/ella-bo-bella/static/js/runtime-main.dc6b2ce1.js.map",
+    "static/css/2.4c6aee69.chunk.css": "/ella-bo-bella/static/css/2.4c6aee69.chunk.css",
+    "static/js/2.5af96705.chunk.js": "/ella-bo-bella/static/js/2.5af96705.chunk.js",
+    "static/js/2.5af96705.chunk.js.map": "/ella-bo-bella/static/js/2.5af96705.chunk.js.map",
+    "static/js/3.9be37447.chunk.js": "/ella-bo-bella/static/js/3.9be37447.chunk.js",
+    "static/js/3.9be37447.chunk.js.map": "/ella-bo-bella/static/js/3.9be37447.chunk.js.map",
+    "index.html": "/ella-bo-bella/index.html",
+    "static/css/2.4c6aee69.chunk.css.map": "/ella-bo-bella/static/css/2.4c6aee69.chunk.css.map",
+    "static/css/main.2219fdcc.chunk.css.map": "/ella-bo-bella/static/css/main.2219fdcc.chunk.css.map",
+    "static/js/2.5af96705.chunk.js.LICENSE.txt": "/ella-bo-bella/static/js/2.5af96705.chunk.js.LICENSE.txt",
+    "static/media/bartiesville-tire-service-full-1.ff284e45.png": "/ella-bo-bella/static/media/bartiesville-tire-service-full-1.ff284e45.png",
+    "static/media/buy-vs-lease-full-1.b88a7385.png": "/ella-bo-bella/static/media/buy-vs-lease-full-1.b88a7385.png",
+    "static/media/community-first-full-1.66ed3c00.png": "/ella-bo-bella/static/media/community-first-full-1.66ed3c00.png",
+    "static/media/don-herring-parts-full-1.5f6950c3.png": "/ella-bo-bella/static/media/don-herring-parts-full-1.5f6950c3.png",
+    "static/media/flickr-img-search-full-1.19a50789.png": "/ella-bo-bella/static/media/flickr-img-search-full-1.19a50789.png",
+    "static/media/jeep-wrangler-full-1.a950ceb1.png": "/ella-bo-bella/static/media/jeep-wrangler-full-1.a950ceb1.png",
+    "static/media/portfolio-full-1.e9da8e5c.png": "/ella-bo-bella/static/media/portfolio-full-1.e9da8e5c.png",
+    "static/media/profile-pic.2e42c2bb.png": "/ella-bo-bella/static/media/profile-pic.2e42c2bb.png",
+    "static/media/App.css": "/ella-bo-bella/static/media/wall-and-laptop-background.f9e274f4.jpg",
+    "static/media/zook-motors-history-full-1.ceffadd3.png": "/ella-bo-bella/static/media/zook-motors-history-full-1.ceffadd3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc6b2ce1.js",
+    "static/css/2.4c6aee69.chunk.css",
+    "static/js/2.5af96705.chunk.js",
+    "static/css/main.2219fdcc.chunk.css",
+    "static/js/main.2b5a4239.chunk.js"
+  ]
+}
