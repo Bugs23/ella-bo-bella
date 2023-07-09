@@ -2,7 +2,7 @@ import React from "react";
 // Import picture
 import author from "../profile-pic.png"
 
-const AboutMe = () => {
+export default function AboutMe() {
 	return (
 		<div id="about" className="about-me section-wrapper">
 		    <div className="container">
@@ -21,5 +21,3 @@ const AboutMe = () => {
 		</div>
 	)
 }
-
-export default AboutMe;
