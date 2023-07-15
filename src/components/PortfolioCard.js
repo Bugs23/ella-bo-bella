@@ -5,16 +5,16 @@ export default function PortfolioCard(props) {
 
 	return (
 		<>
-			<div className="col-lg-7 col-md-6">
+			<div className="col-lg-6 col-md-6">
 				<div className="text-end">
 					<div className="portfolio-project-image pb-3">
-						<img alt={props.title} className="img-fluid" src={`ella-bo-bella/images/${props.projectImg}`} />
-						<img alt={props.title} className="img-fluid" src={`ella-bo-bella/images/${props.projectImg}`} />
-						<img alt={props.title} className="img-fluid" data-tilt="true" data-tilt-max="3" data-tilt-perspective="500" data-tilt-speed="400" src={`ella-bo-bella/images/${props.projectImg}`} />
+						<img alt={props.title} className="img-fluid" src={require(`../images/${props.projectImg}`)} />
+						<img alt={props.title} className="img-fluid" src={require(`../images/${props.projectImg}`)} />
+						<img alt={props.title} className="img-fluid" data-tilt="true" data-tilt-max="3" data-tilt-perspective="500" data-tilt-speed="400" src={require(`../images/${props.projectImg}`)} />
 					</div>
 				</div>
 			</div>
-			<div className="col-lg-5 col-md-6">
+			<div className="col-lg-6 col-md-6">
 				<div className="portfolio-project-text pb-5 center-text">
 					<div className="format">
 						<div className="format-small-text">
