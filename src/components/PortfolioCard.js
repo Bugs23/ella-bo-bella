@@ -8,9 +8,9 @@ export default function PortfolioCard(props) {
 			<div className="col-lg-6 col-md-6">
 				<div className="text-end">
 					<div className="portfolio-project-image pb-3">
-						<img alt={props.title} className="img-fluid" src={require(`%PUBLIC_URL%${props.projectImg}`)} />
-						<img alt={props.title} className="img-fluid" src={require(`%PUBLIC_URL%${props.projectImg}`)} />
-						<img alt={props.title} className="img-fluid" data-tilt="true" data-tilt-max="3" data-tilt-perspective="500" data-tilt-speed="400" src={require(`%PUBLIC_URL%${props.projectImg}`)} />
+						<img alt={props.title} className="img-fluid" src={props.projectImg} />
+						<img alt={props.title} className="img-fluid" src={props.projectImg} />
+						<img alt={props.title} className="img-fluid" data-tilt="true" data-tilt-max="3" data-tilt-perspective="500" data-tilt-speed="400" src={props.projectImg} />
 					</div>
 				</div>
 			</div>

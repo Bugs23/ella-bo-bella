@@ -1,6 +1,6 @@
 import React from "react";
 // Import picture
-import author from "../profile-pic.png"
+import author from "../assets/images/profile-pic.png"
 
 export default function AboutMe() {
 	return (
